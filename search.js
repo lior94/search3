@@ -1,5 +1,5 @@
 search = function(){
-const testFolder = './';
+const testFolder = 'C:\\MyFolder/';
 const fs = require('fs');
 var flag=0;
 fs.readdir(testFolder, (err, files) => {
